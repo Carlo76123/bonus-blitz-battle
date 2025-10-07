@@ -17,10 +17,10 @@ const bonusDetails = {
     color: "from-[hsl(45,100%,55%)] to-[hsl(35,100%,45%)]",
     link: "https://media.lottomaticapartners.it/redirect.aspx?pid=14021&bid=1509"
   },
-  startcasino: {
-    name: "Startcasino",
+  starcasino: {
+    name: "Starcasino",
     bonus: "2050€",
-    description: "Bonus con CIE",
+    description: "Cashback + Free Spin",
     features: [
       "Fino a 2050€ di bonus con CIE",
       "50% di Bonus Cashback",

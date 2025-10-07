@@ -29,7 +29,7 @@ const Index = () => {
           </p>
           <div className="flex items-center justify-center gap-4 text-primary font-semibold">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-primary" />
-            <span>Lottomatica vs Startcasino</span>
+            <span>Lottomatica vs Starcasino</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-primary" />
           </div>
         </header>
