@@ -5,29 +5,31 @@ import { Check } from "lucide-react";
 const bonusDetails = {
   lottomatica: {
     name: "Lottomatica",
-    bonus: "1000€",
-    description: "Bonus di Benvenuto",
+    bonus: "12000€",
+    description: "Play Bonus con CIE",
     features: [
-      "Fino a 1000€ di bonus",
+      "Fino a 12000€ di Play bonus con CIE",
       "100% sul primo deposito",
-      "Slot e giochi da tavolo",
-      "Requisiti di scommessa 35x",
-      "Bonus attivo per 30 giorni"
+      "Slot fornitore Inspired",
+      "Requisiti di gioco 25x",
+      "Bonus attivo per 3 giorni"
     ],
-    color: "from-[hsl(45,100%,55%)] to-[hsl(35,100%,45%)]"
+    color: "from-[hsl(45,100%,55%)] to-[hsl(35,100%,45%)]",
+    link: "https://media.lottomaticapartners.it/redirect.aspx?pid=14021&bid=1509"
   },
-  goldbet: {
-    name: "Goldbet",
-    bonus: "2000€",
-    description: "Bonus di Benvenuto",
+  startcasino: {
+    name: "Startcasino",
+    bonus: "2050€",
+    description: "Bonus con CIE",
     features: [
-      "Fino a 2000€ di bonus",
-      "100% sul primo deposito",
-      "Ampia selezione di slot",
-      "Requisiti di scommessa 30x",
-      "Bonus attivo per 60 giorni"
+      "Fino a 2050€ di bonus con CIE",
+      "50% di Bonus Cashback",
+      "Bonus Cashback su Crazy Time",
+      "150 Free Spin su Even Bigger Bonus",
+      "Nessun altro requisito di gioco"
     ],
-    color: "from-[hsl(0,85%,60%)] to-[hsl(15,85%,50%)]"
+    color: "from-[hsl(280,85%,60%)] to-[hsl(260,85%,50%)]",
+    link: "https://affly.eu/5hxd4"
   }
 };
 
@@ -69,8 +71,11 @@ export const CasinoComparison = () => {
               variant="casino" 
               size="lg" 
               className="w-full text-lg"
+              asChild
             >
-              Richiedi Bonus
+              <a href={casino.link} target="_blank" rel="noopener noreferrer">
+                Richiedi Bonus
+              </a>
             </Button>
             
             <p className="text-xs text-center text-muted-foreground">
